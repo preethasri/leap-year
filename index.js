@@ -10,7 +10,7 @@ function userdata()
 {
   var username=readline.question("what is your name\n");
   console.log("welcome",''+username)
-  var year =readline.question("what is your birth year\n")
+  var year =readline.question("what is your birth year(YYYY)\n")
 if(isNaN(year))
 {
   console.log("you entered a string please enter a number\n")

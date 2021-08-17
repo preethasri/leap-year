@@ -9,7 +9,7 @@ function welcome()
 function userdata()
 {
   var username=readline.question("what is your name\n");
-  console.log("welcome"+username)
+  console.log("welcome",''+username)
   var year =readline.question("what is your birth year\n")
 if(isNaN(year))
 {
